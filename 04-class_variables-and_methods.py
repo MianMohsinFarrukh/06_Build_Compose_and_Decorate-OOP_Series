@@ -28,3 +28,10 @@ account3 = Bank("faraz")
 account1.display_bank_name()  
 account2.display_bank_name()  
 account3.display_bank_name()  
+
+Bank.change_bank_name("Meezan Bank")
+
+# Display updated bank name
+account1.display_bank_name()
+account2.display_bank_name()
+account3.display_bank_name()
